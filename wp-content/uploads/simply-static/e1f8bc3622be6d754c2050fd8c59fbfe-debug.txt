@@ -1,0 +1,1107 @@
+[2024-08-19 06:28:19] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-08-19 06:28:19] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-08-19 06:28:19] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-08-19 06:28:32] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-08-19 06:28:32] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-08-19 06:28:32] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-08-19 06:28:32] [class-ss-setup-task.php:33] Creating archive directory: C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899\
+[2024-08-19 06:28:32] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Automobiles/
+[2024-08-19 06:28:32] [class-ss-setup-task.php:137] File C:\wamp64\www\Automobiles\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/wamp64/www/Automobiles/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/eicons.json
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.svg
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/FontAwesome.otf
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/js/brands.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/js/regular.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/js/solid.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/json/brands.json
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/json/regular.json
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/json/solid.json
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/migration/mapping.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.eot
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.svg
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.ttf
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/hover/hover.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/hover/hover.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/imagesloaded/imagesloaded.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/imagesloaded/imagesloaded.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/inline-editor/js/inline-editor.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/inline-editor/js/inline-editor.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/jquery-easing/jquery-easing.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/jquery-easing/jquery-easing.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/jquery-hover-intent/jquery-hover-intent.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/jquery-hover-intent/jquery-hover-intent.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/nouislider/nouislider.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/nouislider/nouislider.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/nprogress/nprogress.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/nprogress/nprogress.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/perfect-scrollbar/js/perfect-scrollbar.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/pickr/pickr.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/pickr/themes/monolith.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/share-link/share-link.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/swiper.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/tipsy/tipsy.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/tipsy/tipsy.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/waypoints/waypoints-for-editor.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/0e842fae60df2bcb2a30.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/152486453d0e39071cdb.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/2f08057553c95b827d30.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/343f4c6fd2ee68785472.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/46e544e5863270fc32f2.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/4748df03726015eef04f.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/5975ee58d21883e10a11.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/5975ee58d21883e10a11.bundle.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/7dc832afac0230c2012d.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/9c42cff515a6191fddaf.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/a730ee9caa710006b307.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/accordion.8799675460c73eb48972.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/accordion.c16b88b2e8a0c50189bc.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-feedback.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-feedback.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-modules.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-modules.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-modules.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-notifications.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-notifications.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-top-bar.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin-top-bar.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/admin.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-admin.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-admin.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-admin.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-gutenberg.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-gutenberg.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-gutenberg.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-layout.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-layout.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-layout.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-media-library.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-media-library.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai-media-library.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/ai.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/alert.c3c6a3fdf4745bd26b7f.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/alert.cbc2a0fee74ee3ed0419.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/announcements-app.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/announcements-app.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/announcements-app.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app-loader.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app-loader.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app-packages.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app-packages.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app-packages.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/app.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/b7931adecb98651a09c7.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/beta-tester.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/beta-tester.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/common-modules.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/common-modules.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/common.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/common.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/common.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/container-converter.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/container-converter.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/container.a7f0a15dfa05df34e1f7.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/container.c65a2a923085e1120e75.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/counter.02cef29c589e742d4c8c.bundle.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/counter.3f74a246dff765f39aea.bundle.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/dev-tools.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/dev-tools.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/e-home-screen.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/e-home-screen.min.js
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/e-home-screen.min.js.LICENSE.txt
+[2024-08-19 06:28:33] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/e3f753621bf9be55ec4d.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/e8a7573e654d921656ab.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-document.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-document.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-environment-v2.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-environment-v2.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-loader-v1.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-loader-v1.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-loader-v2.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-loader-v2.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-modules.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-modules.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-modules.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-notifications.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor-notifications.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/editor.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/element-manager-admin.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/element-manager-admin.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/element-manager-admin.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/elementor-admin-bar.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/f45f06ab7bc79ea02cfc.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/f634673e5824ceb13f3d.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/fa0cbd4c7b6a8ad83224.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/fd6a00ae23a1bc2c6190.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/frontend-modules.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/frontend-modules.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/frontend.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/frontend.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/gutenberg.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/gutenberg.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/image-carousel.4455c6362492d9067512.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/image-carousel.9399f19d95d7300cbc2e.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/import-export-admin.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/import-export-admin.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/kit-elements-defaults-editor.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/kit-library.1f8d31888dc9d19dd031.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/kit-library.ac1a4cd5deae5526ce49.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/lightbox.26bf6b6c4232d8789c0e.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/lightbox.62507767544e8d455e1b.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/media-hints.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/media-hints.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-accordion.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-accordion.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-accordion.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-elements.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-elements.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-tabs.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-tabs.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/nested-tabs.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/new-template.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/new-template.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/notes.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/notes.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/onboarding.001cbdc1993cabe048db.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/onboarding.026ae7e20c953c6cf3c3.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor/editor.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor/editor.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor/editor.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor/editor.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor/editor.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar/editor-app-bar.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-app-bar-ui/editor-app-bar-ui.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-documents/editor-documents.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-panels/editor-panels.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-responsive/editor-responsive.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/editor-v1-adapters/editor-v1-adapters.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/env/env.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/env/env.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/env/env.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/env/env.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/env/env.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/icons/icons.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/icons/icons.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/icons/icons.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/icons/icons.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/icons/icons.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/locations/locations.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/locations/locations.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/locations/locations.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/locations/locations.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/locations/locations.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/query/query.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/query/query.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/query/query.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/query/query.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/query/query.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/store/store.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/store/store.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/store/store.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/store/store.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/store/store.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/store/store.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/ui/ui.asset.php
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/ui/ui.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/ui/ui.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/ui/ui.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/ui/ui.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/packages/ui/ui.strings.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/progress.6d15c16f0f5c4792940f.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/progress.985f012a6336ab21cb44.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/responsive-bar.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/responsive-bar.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/styleguide-app-initiator.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/styleguide.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/styleguide.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/tabs.520bc2ed4560c561029e.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/tabs.c2af5be7f9cb3cdcf3d5.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/text-editor.2f2f7e0ea1e16387a004.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/text-path.2bc8a9cd0e50cf1a5a9c.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/text-path.2bc8a9cd0e50cf1a5a9c.bundle.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/text-path.fa44919c1abfe9244186.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/toggle.31881477c45ff5cf9d4d.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/toggle.d79746a764407a0828ee.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/video.78c625e89ab767d621c5.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/video.817bd6a65a1542503aac.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/web-cli.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/web-cli.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/web-cli.min.js.LICENSE.txt
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/webpack.runtime.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/wp-audio.75f0ced143febb8cd31a.bundle.min.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/js/wp-audio.b8efdc046bc9df72a075.bundle.js
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/announcement.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/onboarding/Blank_Canvas.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/onboarding/Blank_Preview.jpg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Account.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Hello.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/onboarding/Illustration_Setup.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/onboarding/Library.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/archive.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/error-404.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/footer.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/header.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/product.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/products.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/search-results.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/single-page.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/app/site-editor/single-post.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/blur.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/containers-announcement.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/contrast.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/eyedropper.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/go-pro-wp-dashboard.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/go-pro.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/information.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/library-connect/left-1.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/library-connect/left-2.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/library-connect/right-1.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/library-connect/right-2.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/logo-icon.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/logo-panel.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/logo-platform.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/no-search-results.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/placeholder.png
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/images/unlock-sticky.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/arrow-negative.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/arrow.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/book-negative.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/book.svg
+[2024-08-19 06:28:34] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/clouds-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/clouds.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/curve-asymmetrical-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/curve-asymmetrical.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/curve-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/curve.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/drops-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/drops.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/mountains.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/opacity-fan.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/opacity-tilt.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/pyramids-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/pyramids.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/split-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/split.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/tilt.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/triangle-asymmetrical-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/triangle-asymmetrical.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/triangle-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/triangle.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/wave-brush.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/waves-negative.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/waves-pattern.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/waves.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/shapes/zigzag.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/mask-shapes/blob.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/mask-shapes/circle.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/mask-shapes/flower.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/mask-shapes/hexagon.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/mask-shapes/sketch.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/mask-shapes/triangle.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/svg-paths/arc.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/svg-paths/circle.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/svg-paths/line.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/svg-paths/oval.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/svg-paths/spiral.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/svg-paths/wave.svg
+[2024-08-19 06:28:35] [class-elementor-integration.php:219] Adding elementor bundle asset to queue: http://localhost/Automobiles/wp-content/plugins/elementor/assets/data/responsive-widgets.json
+[2024-08-19 06:28:35] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-08-19 06:28:35] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-19 06:28:35] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-19 06:28:35] [class-ss-fetch-urls-task.php:69] Total pages: 420; Pages remaining: 420
+[2024-08-19 06:28:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/
+[2024-08-19 06:28:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 420
+[2024-08-19 06:28:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e61331fed-GQSK7U.tmp
+[2024-08-19 06:28:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/?simply_static_page=1
+[2024-08-19 06:28:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/?simply_static_page=1
+[2024-08-19 06:28:43] [class-ss-url-fetcher.php:103] Filesize: 135005 bytes
+[2024-08-19 06:28:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-19 06:28:43] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-08-19 06:28:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e61331fed-GQSK7U.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/index.html
+[2024-08-19 06:28:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:48] [class-ss-fetch-urls-task.php:159] Adding 75 URLs to the queue
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:49] [class-ss-page.php:118] Checking Content Identical:f9cbf0b3ad264f0c84f47800508915d53aa404d2===. Value: FALSE
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:72] URL: C:/wamp64/www/Automobiles/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-19 06:28:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 420
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-19 06:28:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 420
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e621ca0db-QbZ2j9.tmp
+[2024-08-19 06:28:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json?simply_static_page=3
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json?simply_static_page=3
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:103] Filesize: 851 bytes
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e621ca0db-QbZ2j9.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/animate.css/animate-config.json
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:49] [class-ss-page.php:118] Checking Content Identical:c2be3106d54785ca1e0cf07759baed3487deaf19===. Value: FALSE
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-19 06:28:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 420
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e621dfaea-QQB30l.tmp
+[2024-08-19 06:28:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.css?simply_static_page=4
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.css?simply_static_page=4
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:103] Filesize: 13369 bytes
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-19 06:28:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e621dfaea-QQB30l.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/animate.css/animate.css
+[2024-08-19 06:28:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:50] [class-ss-page.php:118] Checking Content Identical:eb934f5b426f03f62beaff2ebbdd82c6f2759ec4===. Value: FALSE
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-19 06:28:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 420
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e6220d988-tVZW95.tmp
+[2024-08-19 06:28:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css?simply_static_page=5
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css?simply_static_page=5
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:103] Filesize: 8449 bytes
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e6220d988-tVZW95.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/animate.css/animate.min.css
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:50] [class-ss-page.php:118] Checking Content Identical:96fd188c16f8980195ac1e89dbcb46c6fb924d98===. Value: FALSE
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-19 06:28:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 420
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e622339e8-J4FQQ0.tmp
+[2024-08-19 06:28:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?simply_static_page=6
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?simply_static_page=6
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:103] Filesize: 18468 bytes
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e622339e8-J4FQQ0.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/animations/animations.min.css
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:50] [class-ss-page.php:118] Checking Content Identical:5103ec2fbb389568ebf5cfe4fd721f3df2ff7aec===. Value: FALSE
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-19 06:28:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 420
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62266576-YuoJ86.tmp
+[2024-08-19 06:28:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js?simply_static_page=7
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js?simply_static_page=7
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:103] Filesize: 133156 bytes
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62266576-YuoJ86.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.js
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:50] [class-ss-page.php:118] Checking Content Identical:a011fe207b172ff24f85e0b855be719e5dba9f81===. Value: FALSE
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-19 06:28:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 420
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62299720-unmdls.tmp
+[2024-08-19 06:28:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?simply_static_page=8
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?simply_static_page=8
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:103] Filesize: 45156 bytes
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62299720-unmdls.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:50] [class-ss-page.php:118] Checking Content Identical:1cbee1e971d511cddc67dbc188265439fc774c86===. Value: FALSE
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-19 06:28:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 420
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e622c9b22-LNq2Zb.tmp
+[2024-08-19 06:28:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js?simply_static_page=9
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js?simply_static_page=9
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:103] Filesize: 10363 bytes
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-19 06:28:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e622c9b22-LNq2Zb.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.js
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:51] [class-ss-page.php:118] Checking Content Identical:42bc66f9e83ba987eb528be0c2bd3e6914605e36===. Value: FALSE
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-19 06:28:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 420
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e6231284c-sbf1Ky.tmp
+[2024-08-19 06:28:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?simply_static_page=10
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?simply_static_page=10
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:103] Filesize: 3753 bytes
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e6231284c-sbf1Ky.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:51] [class-ss-page.php:118] Checking Content Identical:9d72caa3fc433eb72c1cbc0f3be7873adb8f53a6===. Value: FALSE
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-19 06:28:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 420
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e623351b6-Zwun3a.tmp
+[2024-08-19 06:28:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js?simply_static_page=11
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js?simply_static_page=11
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:103] Filesize: 6666 bytes
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e623351b6-Zwun3a.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/color-thief/color-thief.min.js
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:51] [class-ss-page.php:118] Checking Content Identical:c0b139109997cdc97353beaabb512283a5f481e0===. Value: FALSE
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-19 06:28:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 420
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e623751e9-kRiy34.tmp
+[2024-08-19 06:28:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.js?simply_static_page=12
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.js?simply_static_page=12
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:103] Filesize: 20975 bytes
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e623751e9-kRiy34.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/dialog/dialog.js
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:51] [class-ss-page.php:118] Checking Content Identical:b59ea5f374d79a71f1fe71d9e8b4d0674cfe840c===. Value: FALSE
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-19 06:28:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 420
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e623a7863-Bqgsdk.tmp
+[2024-08-19 06:28:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?simply_static_page=13
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?simply_static_page=13
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:103] Filesize: 10777 bytes
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e623a7863-Bqgsdk.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:51] [class-ss-page.php:118] Checking Content Identical:60f061357746f09ab60d595ba37584a5f60d991c===. Value: FALSE
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-19 06:28:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 420
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e623c57ac-rC3syC.tmp
+[2024-08-19 06:28:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css?simply_static_page=14
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css?simply_static_page=14
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:103] Filesize: 3762 bytes
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e623c57ac-rC3syC.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.css
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:51] [class-ss-page.php:118] Checking Content Identical:00e5beb9c5312fee3eb3344a5dc3ddaa29d9759d===. Value: FALSE
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-19 06:28:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 420
+[2024-08-19 06:28:51] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e623e480a-K78NCR.tmp
+[2024-08-19 06:28:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?simply_static_page=15
+[2024-08-19 06:28:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?simply_static_page=15
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:103] Filesize: 3303 bytes
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e623e480a-K78NCR.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:52] [class-ss-page.php:118] Checking Content Identical:51627109dea8c9f26708227de2ea6c0dd1f0417f===. Value: FALSE
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-19 06:28:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 420
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62422ce3-Nqak5G.tmp
+[2024-08-19 06:28:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js?simply_static_page=16
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js?simply_static_page=16
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:103] Filesize: 49904 bytes
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62422ce3-Nqak5G.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.js
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:52] [class-ss-page.php:118] Checking Content Identical:3df3a7642cbe13bdbae85cc6c140cc075e77244a===. Value: FALSE
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-19 06:28:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 420
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e6244df2a-Hl7Isv.tmp
+[2024-08-19 06:28:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?simply_static_page=17
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?simply_static_page=17
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:103] Filesize: 15347 bytes
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e6244df2a-Hl7Isv.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:52] [class-ss-page.php:118] Checking Content Identical:31cd1d49c8c1a67f149483b2f2800b2344e6a9a7===. Value: FALSE
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-19 06:28:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 420
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62482cfd-Osybzp.tmp
+[2024-08-19 06:28:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css?simply_static_page=18
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css?simply_static_page=18
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:103] Filesize: 17494 bytes
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62482cfd-Osybzp.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.css
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:52] [class-ss-page.php:118] Checking Content Identical:d7948e05458575a156bd0b11e2871575c9f9dcef===. Value: FALSE
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-19 06:28:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 420
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e624c2ec3-R4VjJX.tmp
+[2024-08-19 06:28:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css?simply_static_page=19
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css?simply_static_page=19
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:103] Filesize: 14773 bytes
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-19 06:28:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e624c2ec3-R4VjJX.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-select2/css/e-select2.min.css
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:52] [class-ss-page.php:118] Checking Content Identical:915cc71a6d35adad5d57287ea5a8db357c7feffe===. Value: FALSE
+[2024-08-19 06:28:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js
+[2024-08-19 06:28:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 420
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62500fe4-GQSxle.tmp
+[2024-08-19 06:28:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js?simply_static_page=20
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js?simply_static_page=20
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:103] Filesize: 166531 bytes
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62500fe4-GQSxle.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.js
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:53] [class-ss-page.php:118] Checking Content Identical:6578a76db4c8a61d3db5e6bbeb98eedc56e5c87d===. Value: FALSE
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js
+[2024-08-19 06:28:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 420
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e6255a9c8-XKy6P7.tmp
+[2024-08-19 06:28:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js?simply_static_page=21
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js?simply_static_page=21
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:103] Filesize: 76001 bytes
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e6255a9c8-XKy6P7.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/e-select2/js/e-select2.full.min.js
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:53] [class-ss-page.php:118] Checking Content Identical:8262a0b66cc08f003335a52c844f07009b481ea1===. Value: FALSE
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css
+[2024-08-19 06:28:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 420
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62596ca0-EjcxlB.tmp
+[2024-08-19 06:28:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css?simply_static_page=22
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css?simply_static_page=22
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:103] Filesize: 24047 bytes
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62596ca0-EjcxlB.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.css
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:53] [class-ss-page.php:118] Checking Content Identical:92ccc6b397af27debd66bd2881ffc4de9f4d689a===. Value: FALSE
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+[2024-08-19 06:28:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 420
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e625d5b4b-uh1QZk.tmp
+[2024-08-19 06:28:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?simply_static_page=23
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?simply_static_page=23
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:103] Filesize: 19820 bytes
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+[2024-08-19 06:28:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e625d5b4b-uh1QZk.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css
+[2024-08-19 06:28:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:54] [class-ss-page.php:118] Checking Content Identical:cf199b1ffb624bdaaf60f065e97c8e0cc56fa2f1===. Value: FALSE
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/eicons.json
+[2024-08-19 06:28:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 420
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62616519-2DQ3Pn.tmp
+[2024-08-19 06:28:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/eicons.json?simply_static_page=24
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/eicons.json?simply_static_page=24
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:103] Filesize: 424980 bytes
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/eicons.json
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62616519-2DQ3Pn.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/eicons.json
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:54] [class-ss-page.php:118] Checking Content Identical:c52c08d83dd71ff3e60ce71c1e36d465a39e47cf===. Value: FALSE
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
+[2024-08-19 06:28:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 420
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e626409e9-urY7B6.tmp
+[2024-08-19 06:28:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?simply_static_page=25
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?simply_static_page=25
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:103] Filesize: 218896 bytes
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e626409e9-urY7B6.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:54] [class-ss-page.php:118] Checking Content Identical:983bb1ee69cbf40fdf4fc7b222f2ac2e11b1691c===. Value: FALSE
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg
+[2024-08-19 06:28:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 420
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62667a1e-usVuxE.tmp
+[2024-08-19 06:28:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?simply_static_page=26
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?simply_static_page=26
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:103] Filesize: 330797 bytes
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62667a1e-usVuxE.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:54] [class-ss-page.php:118] Checking Content Identical:712f6325b850c9bd23a99cfbfffa5df94ab7b541===. Value: FALSE
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf
+[2024-08-19 06:28:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 420
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e626bf4fb-4r0Z3x.tmp
+[2024-08-19 06:28:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?simply_static_page=27
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?simply_static_page=27
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:103] Filesize: 218736 bytes
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e626bf4fb-4r0Z3x.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:54] [class-ss-page.php:118] Checking Content Identical:21fc01de796633d07ea9a1960f6b9bb428d82c76===. Value: FALSE
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff
+[2024-08-19 06:28:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 420
+[2024-08-19 06:28:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e626e6765-fmSbyY.tmp
+[2024-08-19 06:28:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?simply_static_page=28
+[2024-08-19 06:28:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?simply_static_page=28
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:103] Filesize: 118972 bytes
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e626e6765-fmSbyY.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:55] [class-ss-page.php:118] Checking Content Identical:69fc26c1245e0b658b701cc3a4e9ac1605f29c14===. Value: FALSE
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2
+[2024-08-19 06:28:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 420
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62726f11-FkDbj5.tmp
+[2024-08-19 06:28:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?simply_static_page=29
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?simply_static_page=29
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:103] Filesize: 97132 bytes
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62726f11-FkDbj5.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:55] [class-ss-page.php:118] Checking Content Identical:f7d2bb9b4300fe5787916e6b618d56cc8ec10063===. Value: FALSE
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css
+[2024-08-19 06:28:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 420
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62742903-iWOrpB.tmp
+[2024-08-19 06:28:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css?simply_static_page=30
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css?simply_static_page=30
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:103] Filesize: 21628 bytes
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62742903-iWOrpB.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.css
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:55] [class-ss-page.php:118] Checking Content Identical:6cc0912d4cefa21f710ef9c1c41b107b1d66e17e===. Value: FALSE
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js
+[2024-08-19 06:28:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 420
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e6277bbb8-IzuUGQ.tmp
+[2024-08-19 06:28:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js?simply_static_page=31
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js?simply_static_page=31
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:103] Filesize: 74942 bytes
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e6277bbb8-IzuUGQ.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.js
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:55] [class-ss-page.php:118] Checking Content Identical:01a98e15d03f7b409a61a86126d83e47a76abb8a===. Value: FALSE
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css
+[2024-08-19 06:28:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 420
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e627b74be-3fITJr.tmp
+[2024-08-19 06:28:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?simply_static_page=32
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?simply_static_page=32
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:103] Filesize: 17222 bytes
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css
+[2024-08-19 06:28:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e627b74be-3fITJr.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:55] [class-ss-page.php:118] Checking Content Identical:a6cb16992379fcea85265f2583d5ee570d5fca9f===. Value: FALSE
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js
+[2024-08-19 06:28:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 420
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e628027d2-UrpM5w.tmp
+[2024-08-19 06:28:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?simply_static_page=33
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?simply_static_page=33
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:103] Filesize: 43584 bytes
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e628027d2-UrpM5w.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:56] [class-ss-page.php:118] Checking Content Identical:a16aa6ee8eb8dfb2dd72f49d838557f33402d171===. Value: FALSE
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css
+[2024-08-19 06:28:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 420
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62857ccd-s2m50r.tmp
+[2024-08-19 06:28:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css?simply_static_page=34
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css?simply_static_page=34
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:103] Filesize: 73625 bytes
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62857ccd-s2m50r.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.css
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:56] [class-ss-page.php:118] Checking Content Identical:e8a2d569dc8adfd13f2cf284465287b0ad507329===. Value: FALSE
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css
+[2024-08-19 06:28:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 420
+[2024-08-19 06:28:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e628b7b16-YBshsN.tmp
+[2024-08-19 06:28:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?simply_static_page=35
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?simply_static_page=35
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:103] Filesize: 59344 bytes
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css
+[2024-08-19 06:28:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e628b7b16-YBshsN.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:57] [class-ss-page.php:118] Checking Content Identical:f6c8346d05e68812a366e57c5070fca87c6d116d===. Value: FALSE
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css
+[2024-08-19 06:28:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 420
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e629545ad-Yd2rpb.tmp
+[2024-08-19 06:28:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?simply_static_page=36
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css?simply_static_page=36
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:103] Filesize: 732 bytes
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e629545ad-Yd2rpb.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:57] [class-ss-page.php:118] Checking Content Identical:9fbe50599c85db975a0518cdcd8adac4732de019===. Value: FALSE
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css
+[2024-08-19 06:28:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 420
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62980d5c-Oy0IK2.tmp
+[2024-08-19 06:28:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?simply_static_page=37
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?simply_static_page=37
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:103] Filesize: 675 bytes
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62980d5c-Oy0IK2.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:57] [class-ss-page.php:118] Checking Content Identical:20518ea2e6d62a75c5d621bae6252deafd779477===. Value: FALSE
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css
+[2024-08-19 06:28:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 420
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e629ac111-HspcFF.tmp
+[2024-08-19 06:28:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css?simply_static_page=38
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css?simply_static_page=38
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:103] Filesize: 38997 bytes
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e629ac111-HspcFF.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.css
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:57] [class-ss-page.php:118] Checking Content Identical:8f30345abe9aae436d357adfdc23c6d701aeb38c===. Value: FALSE
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css
+[2024-08-19 06:28:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 420
+[2024-08-19 06:28:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e629ef2c0-AZjr9P.tmp
+[2024-08-19 06:28:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?simply_static_page=39
+[2024-08-19 06:28:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?simply_static_page=39
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:103] Filesize: 30999 bytes
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e629ef2c0-AZjr9P.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:58] [class-ss-page.php:118] Checking Content Identical:3c465b982d4f107944b195706e071e2b9055f3eb===. Value: FALSE
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css
+[2024-08-19 06:28:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 420
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62a40b46-vw3LTf.tmp
+[2024-08-19 06:28:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?simply_static_page=40
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css?simply_static_page=40
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:103] Filesize: 72184 bytes
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62a40b46-vw3LTf.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:58] [class-ss-page.php:118] Checking Content Identical:f7320458aadcbaa2ed94c43c8d7ddb9361d0b106===. Value: FALSE
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css
+[2024-08-19 06:28:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 420
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62a69101-9tt1KN.tmp
+[2024-08-19 06:28:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?simply_static_page=41
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?simply_static_page=41
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:103] Filesize: 58071 bytes
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62a69101-9tt1KN.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:58] [class-ss-page.php:118] Checking Content Identical:a1869e155e92fa178b9c3ae6dff787df57f195c6===. Value: FALSE
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css
+[2024-08-19 06:28:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 420
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62a86ded-d4yQAt.tmp
+[2024-08-19 06:28:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css?simply_static_page=42
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css?simply_static_page=42
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:103] Filesize: 734 bytes
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62a86ded-d4yQAt.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.css
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:58] [class-ss-page.php:118] Checking Content Identical:16eb5d063ee7149dcebe4e93a3fdceb26ef217fb===. Value: FALSE
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css
+[2024-08-19 06:28:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 420
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62ab2312-BnNKQu.tmp
+[2024-08-19 06:28:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?simply_static_page=43
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?simply_static_page=43
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:103] Filesize: 677 bytes
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62ab2312-BnNKQu.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:58] [class-ss-page.php:118] Checking Content Identical:bb5d550cc9427502d9cd584f43f4c3225141cd10===. Value: FALSE
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css
+[2024-08-19 06:28:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 420
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62adce93-yjaLNA.tmp
+[2024-08-19 06:28:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?simply_static_page=44
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css?simply_static_page=44
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:103] Filesize: 727 bytes
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css
+[2024-08-19 06:28:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62adce93-yjaLNA.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css
+[2024-08-19 06:28:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:59] [class-ss-page.php:118] Checking Content Identical:fa3ab4abfec57e7e8545b0633d3eded6121564eb===. Value: FALSE
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css
+[2024-08-19 06:28:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 420
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62b1c456-gKxoDu.tmp
+[2024-08-19 06:28:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?simply_static_page=45
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?simply_static_page=45
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:103] Filesize: 669 bytes
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62b1c456-gKxoDu.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:59] [class-ss-page.php:118] Checking Content Identical:d056a0632a081109037e2130b3cf4971f60586f1===. Value: FALSE
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css
+[2024-08-19 06:28:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 420
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62b3b176-eWlvYb.tmp
+[2024-08-19 06:28:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css?simply_static_page=46
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css?simply_static_page=46
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:103] Filesize: 8077 bytes
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62b3b176-eWlvYb.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.css
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:59] [class-ss-page.php:118] Checking Content Identical:8f4703f04eec9e4fc7909fc19313bf4676c30ba2===. Value: FALSE
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css
+[2024-08-19 06:28:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 420
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62b53b26-XW8Gwl.tmp
+[2024-08-19 06:28:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css?simply_static_page=47
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css?simply_static_page=47
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:103] Filesize: 6359 bytes
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62b53b26-XW8Gwl.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/svg-with-js.min.css
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:59] [class-ss-page.php:118] Checking Content Identical:e0c5a2beacac5bce8742eda5af49cbcd9f53b9a7===. Value: FALSE
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css
+[2024-08-19 06:28:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 420
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62b6905e-AO3kge.tmp
+[2024-08-19 06:28:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css?simply_static_page=48
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css?simply_static_page=48
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:103] Filesize: 41312 bytes
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62b6905e-AO3kge.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.css
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:59] [class-ss-page.php:118] Checking Content Identical:868b6fe74f185178163778ddfef58216798984ba===. Value: FALSE
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css
+[2024-08-19 06:28:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 420
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/66c2e62b93136-YTWX06.tmp
+[2024-08-19 06:28:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?simply_static_page=49
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Automobiles/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?simply_static_page=49
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:103] Filesize: 26702 bytes
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css
+[2024-08-19 06:28:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/66c2e62b93136-YTWX06.tmp to C:\wamp64\www\Automobiles/wp-content/uploads\simply-static\temp-files/simply-static-1-1724048899/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-19 06:28:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-19 06:28:59] [class-ss-page.php:118] Checking Content Identical:f22de0af271eba636a022c873c94fbcd81b4c89a===. Value: FALSE
